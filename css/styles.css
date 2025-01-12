@@ -3,16 +3,19 @@
   color: #434455;
   background-color: #ffffff;
 }
+.autor {
+  text-align: right;
+}
 .hea-a {
   font-weight: 700;
-  font-size: 56px;
+  font-size: 45px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   max-width: 496px;
   margin: 0 auto;
   margin-bottom: 48px;
-  background-image: url(peopleoffice.jpg);
+  background-image: url(Zdjecie_puste.jpg);
 }
 .hea_b {
   font-weight: 700;
@@ -134,7 +137,7 @@
 }
 .section-a {
   background-color: #2e2f42;
-  color: #ffffff;
+  color: black;
   padding-top: 188px;
   padding-bottom: 188px;
   max-width: 1440px;
@@ -142,7 +145,7 @@
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office.jpg);
+    url(../images/Zdjecie_puste.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -163,7 +166,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero\ image-mobile-x2.jpg);
+      url(../images/Zdjecie_puste.jpg);
   }
 }
 
@@ -179,7 +182,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero\ image-tablet-x2.jpg);
+      url(../images/Zdjecie_puste.jpg);
   }
 }
 
@@ -230,7 +233,7 @@ img {
 }
 
 .footer {
-  display: block;
+  /**display: block;**/
 }
 
 @media (min-width: 768px) and (max-width: 1157px) {
@@ -251,12 +254,15 @@ img {
   padding-bottom: 120px;
 }
 .footer {
-  background-color: #2e2f42;
+  background-color: #151d4b;
   color: #ffffff;
   padding-top: 100px;
   padding-bottom: 100px;
 }
 .footer-a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .button {
   background-color: #4d5ae5;
@@ -538,9 +544,9 @@ a:hover {
 }
 .container-footer {
   width: 1158px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  margin: 0px 400px;
+  /**padding-left: 15px;
+  padding-right: 15px;**/
 }
 
 img {
@@ -714,7 +720,7 @@ ol {
 }
 .footer .container-footer {
   display: flex;
-  align-items: baseline;
+  /**align-items: baseline;**/
 }
 .giewont {
   position: relative;
@@ -1167,7 +1173,7 @@ input[type="checkbox"] .form-modal-label .modal-checkbox-input {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero\ image-tablet-x2.jpg);
+      url(../images/Zdjecie_puste.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1232,7 +1238,7 @@ input[type="checkbox"] .form-modal-label .modal-checkbox-input {
   }
 
   .footer {
-    display: flex;
+    /**display: flex;**/
   }
   .paragraph-app {
     font-weight: 400;
@@ -1427,7 +1433,7 @@ input[type="checkbox"] .form-modal-label .modal-checkbox-input {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office-x2.jpg);
+      url(../images/Zdjecie_puste.jpg);
   }
   .address-a {
     font-size: 16px;
